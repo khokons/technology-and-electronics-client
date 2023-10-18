@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "brand_name": "Apple",
+      "brand_img": "https://i.postimg.cc/ZKwDt6PB/photo-1662946834879-e42e04811369.jpg",
+      "price": "$19.99",
+      "short_description": "A wedding is a ceremony where two people are united in marriage.",
+      "full_description": "A wedding is a ceremony where two people are united in marriage. Wedding traditions and customs vary greatly between cultures, ethnic groups, religions, countries, and social classes. Most wedding ceremonies involve an exchange of marriage vows by a couple, presentation of a gift (offering, rings, symbolic item, flowers, money, dress), and a public proclamation of marriage by an authority figure or celebrant. Special wedding garments are often worn, and the ceremony is sometimes followed by a wedding reception. Music, poetry, prayers, or readings from religious texts or literature are also commonly incorporated into the ceremony, as well as superstitious customs.",
+      "button": "Service Details"
+    },
+    {
+      "id": 2,
+      "brand_name": "Samsung",
+      "brand_img": "https://i.postimg.cc/zDszW8wd/5969247.png",
+      "price": "$29.99",
+      "short_description": "A birthday is the anniversary of the birth of a person, or figuratively of an institution.",
+      "full_description": "A birthday is the anniversary of the birth of a person, or figuratively of an institution. Birthdays of people are celebrated in numerous cultures, often with birthday gifts, birthday cards, a birthday party, or a rite of passage.Many religions celebrate the birth of their founders or religious figures with special holidays (e.g. Christmas, Mawlid, Buddha's Birthday, and Krishna Janmashtami).There is a distinction between birthday and birthdate (also known as date of birth): the former, except for February 29, occurs each year (e.g. January 15), while the latter is the complete date when a person was born (e.g. January 15, 2001)",
+      "button": "Service Details"
+    },
+    {
+      "id": 3,
+      "brand_name": "A4-Tech",
+      "brand_img": "https://i.postimg.cc/SsX42vnF/A4-Tech-Logo-Dark-Thumb-Square.png",
+      "price": "$39.99",
+      "short_description": "An anniversary is the date on which an event took place or an institution was founded in a previous year, and may also refer to the commemoration or celebration of that event.",
+      "full_description": "An anniversary is the date on which an event took place or an institution was founded in a previous year, and may also refer to the commemoration or celebration of that event. The word was first used for Catholic feasts to commemorate saints.Most countries celebrate national anniversaries, typically called national days. These could be the date of independence of the nation or the adoption of a new constitution or form of government. There is no definite method for determining the date of establishment of an institution, and it is generally decided within the institution by convention. The important dates in a sitting monarch's reign may also be commemorated, an event often referred to as a jubilee ",
+      "button": "Service Details"
+    },
+    {
+      "id": 4,
+      "brand_name": "Google",
+      "brand_img": "https://i.postimg.cc/SKdhwnKg/Google-Logo-770x360.jpg",
+      "price": "$49.99",
+      "short_description": "An engagement or betrothal is the period of time between the declaration of acceptance of a marriage proposal and the marriage itself (which is typically but not always commenced with a wedding).",
+      "full_description": "An engagement or betrothal is the period of time between the declaration of acceptance of a marriage proposal and the marriage itself (which is typically but not always commenced with a wedding). During this period, a couple is said to be fiancés (from the French), betrothed, intended, affianced, engaged to be married, or simply engaged. Future brides and grooms may be called fiancée (feminine) or fiancé (masculine), the betrothed, a wife-to-be or husband-to-be, respectively. The duration of the courtship varies vastly, and is largely dependent on cultural norms or upon the agreement of the parties involved.",
+      "button": "Service Details"
+    },
+    {
+      "id": 5,
+      "brand_name": "Intel",
+      "brand_img": "https://i.postimg.cc/W4zLCH6F/download.png",
+      "price": "$59.99",
+      "short_description": "Retirement is the withdrawal from one's position or occupation or from one's active working life.",
+      "full_description": "Retirement is the withdrawal from one's position or occupation or from one's active working life.[1] A person may also semi-retire by reducing work hours or workload.Many people choose to retire when they are elderly or incapable of doing their job due to health reasons. People may also retire when they are eligible for private or public pension benefits, although some are forced to retire when bodily conditions no longer allow the person to work any longer (by illness or accident) or as a result of legislation concerning their positions.[2] In most countries, the idea of retirement is of recent origin, being introduced during the late-nineteenth and early-twentieth centuries",
+      "button": "Service Details"
+    },
+    {
+      "id": 6,
+      "brand_name": "HP",
+      "brand_img": "https://i.postimg.cc/GmqnMCYn/download.jpg",
+      "price": "$69.99",
+      "short_description": "Ceremonies for graduating students date from the first universities in Europe in the twelfth century.",
+      "full_description": "Ceremonies for graduating students date from the first universities in Europe in the twelfth century. At that time Latin was the language of scholars. A universitas was a guild of masters (such as MAs) with licence to teach.Degree and graduate come from gradus, meaning step. The first step was admission to a bachelor's degree. The second step was the masters step, giving the graduate admission to the universitas and license to teach. Typical dress for graduation is gown and hood, or hats adapted from the daily dress of university staff in the Middle Ages, which was in turn based on the attire worn by medieval clergy",
+      "button": "Service Details"
+    }
+   
+  ]
+
