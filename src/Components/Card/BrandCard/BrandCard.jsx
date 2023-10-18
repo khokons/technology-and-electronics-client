@@ -1,7 +1,7 @@
 
 const BrandCard = ({card}) => {
 
-    const {brand_img, brand_name} = card;
+    const {id, brand_img, brand_name} = card;
 
 
   return (
