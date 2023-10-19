@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
           </nav>
           <aside>
-            <p>Copyright © 2023 - All right reserved by Mahmudul Hasan Khokon</p>
+            <p>Copyright © 2023 - All right reserved by Mahmudul Hasan (KHOKON)</p>
           </aside>
         </footer>
       );
