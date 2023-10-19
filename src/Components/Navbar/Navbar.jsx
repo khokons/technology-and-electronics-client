@@ -5,7 +5,7 @@ const Navbar = () => {
     const navLinks = <>
 
   <li className="uppercase"><NavLink to="/">Home</NavLink> </li>
-  <li className="uppercase"><NavLink to="/product">Add Product</NavLink> </li>
+  <li className="uppercase"><NavLink to="/addProducts">Add Product</NavLink> </li>
   <li className="uppercase"><NavLink to="/cart">My Cart</NavLink> </li>
   <li className="uppercase"><NavLink to="/login">Login</NavLink> </li>
   <li className="uppercase"><NavLink to="/register">Register</NavLink> </li>

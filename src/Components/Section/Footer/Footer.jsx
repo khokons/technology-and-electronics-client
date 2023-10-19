@@ -1,10 +1,8 @@
 
 const Footer = () => {
     return (
-        <footer
-          data-aos="zoom-in"
-          className="footer footer-center p-10 bg-[#3F1D38] text-base text-white font-poppins rounded mt-10 mb-5"
-        >
+
+ <footer className="footer footer-center p-10 bg-[#3F1D38] text-base text-white font-poppins rounded mt-10">
           <nav className="grid grid-flow-col gap-4">
             <a className="link link-hover">Home</a>
             <a className="link link-hover">Login</a>

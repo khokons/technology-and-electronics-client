@@ -8,6 +8,11 @@ import {
 import Root from './Root/Root';
 import Home from './Components/Home/Home';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
+import AddProducts from './Components/AddProducts/AddProducts';
+import Products from './ExtraPath/Products/Products';
+import Atechs from './sixBrand/Atechs/Atechs';
+import Contact from './Components/Section/Contact';
+
 
 
 const router = createBrowserRouter([
@@ -21,7 +26,31 @@ const router = createBrowserRouter([
         element: <Home></Home>,
         loader: () => fetch("/techsinfo.json")
         
+      },
+      {
+        path:"/addProducts",
+        element: <AddProducts></AddProducts>
+      },
+      
+      {
+        path:"/techs",
+        element: <Products></Products>,
+        loader: ()=> fetch('http://localhost:3389/techs')
+       
+      },
+
+      {
+        path:"/atechs/:id",
+        element: <Atechs></Atechs>,
+        loader: () => fetch('http://localhost:3389/techs')
+        
+      },
+      {
+        path:"/contact",
+        element: <Contact></Contact>
       }
+
+
     ]
  
   },
