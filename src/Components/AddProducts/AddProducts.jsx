@@ -16,10 +16,10 @@ const AddProducts = () => {
 
         console.log(newProduct);
 
-        fetch('http://localhost:3389/techs',{
+        fetch('https://technology-and-electronics-server-khokons-c1e583e9.vercel.app/techs',{
             method: 'POST',
             headers: {
-                'content-type': 'application/json'
+                'content-type': 'application/json'   
             },
             body: JSON.stringify(newProduct)
         })

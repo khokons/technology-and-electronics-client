@@ -14,6 +14,7 @@ import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import DetailsPage from "./Components/DetailsPage/DetailsPage";
+import UpdateInfo from "./Components/UpdateInfo/UpdateInfo";
 
 const router = createBrowserRouter([
   {
@@ -35,13 +36,13 @@ const router = createBrowserRouter([
       {
         path: "/techs",
         element: <Products></Products>,
-        loader: () => fetch("http://localhost:3389/techs")
+        loader: () => fetch("https://technology-and-electronics-server-khokons-c1e583e9.vercel.app/techs")
       },
 
       {
         path: "/atechs/:id",
         element: <Atechs></Atechs>,
-        loader: () => fetch("http://localhost:3389/techs")
+        loader: () => fetch("https://technology-and-electronics-server-khokons-c1e583e9.vercel.app/techs")
       },
       {
         path: "/contact",
@@ -58,7 +59,12 @@ const router = createBrowserRouter([
       {
         path: "/details/:brand_name",
         element: <PrivateRoute><DetailsPage></DetailsPage></PrivateRoute>,
-        loader: () => fetch('http://localhost:3389/techs')
+        loader: () => fetch('https://technology-and-electronics-server-khokons-c1e583e9.vercel.app/techs')
+      },
+      {
+        path: "/updateInfo",
+        element: <UpdateInfo></UpdateInfo>
+
       }
     ],
   },
