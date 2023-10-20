@@ -1,64 +1,65 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import Root from './Root/Root';
-import Home from './Components/Home/Home';
-import ErrorPage from './Components/ErrorPage/ErrorPage';
-import AddProducts from './Components/AddProducts/AddProducts';
-import Products from './ExtraPath/Products/Products';
-import Atechs from './sixBrand/Atechs/Atechs';
-import Contact from './Components/Section/Contact';
-
-
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Root from "./Root/Root";
+import Home from "./Components/Home/Home";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
+import AddProducts from "./Components/AddProducts/AddProducts";
+import Products from "./ExtraPath/Products/Products";
+import Atechs from "./sixBrand/Atechs/Atechs";
+import Contact from "./Components/Section/Contact";
+import AuthProvider from "./Components/Providers/AuthProvider";
+import Login from "./Components/Login/Login";
+import Register from "./Components/Register/Register";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
     errorElement: <ErrorPage></ErrorPage>,
-    children:[
+    children: [
       {
-        path:"/",
+        path: "/",
         element: <Home></Home>,
-        loader: () => fetch("/techsinfo.json")
-        
+        loader: () => fetch("/techsinfo.json"),
       },
       {
-        path:"/addProducts",
-        element: <AddProducts></AddProducts>
+        path: "/addProducts",
+        element: <AddProducts></AddProducts>,
       },
-      
+
       {
-        path:"/techs",
+        path: "/techs",
         element: <Products></Products>,
-        loader: ()=> fetch('http://localhost:3389/techs')
-       
+        loader: () => fetch("http://localhost:3389/techs"),
       },
 
       {
-        path:"/atechs/:id",
+        path: "/atechs/:id",
         element: <Atechs></Atechs>,
-        loader: () => fetch('http://localhost:3389/techs')
-        
+        loader: () => fetch("http://localhost:3389/techs"),
       },
       {
-        path:"/contact",
-        element: <Contact></Contact>
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>
+      },
+      {
+        path:"/register",
+        element: <Register></Register>
       }
-
-
-    ]
- 
+    ],
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-
-  </React.StrictMode>,
-)
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
+  </React.StrictMode>
+);
