@@ -31,12 +31,13 @@ const DetailsPage = () => {
          <img src="https://i.postimg.cc/6q0gSc9c/apple-underware.jpg" alt="" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title justify-center">APPLE</h2>
+          <h2 className="card-title justify-center font-extrabold text-black">APPLE</h2>
+          <h3 className="card-title justify-center font-extrabold text-black">Favorites Product in this website</h3>
           <p className="card-title justify-center">
-          Undergarments are generally of two types, those that are worn to cover the torso and those that are worn to cover the waist and legs, although there are also underclothes which cover both. Different styles of underwear are generally worn by females and
+          Undergarments are generally of two types, those that are worn to cover the torso and those that are worn to cover the waist and legs, although there are also underclothes which cover both. Different styles of underwear are generally worn by females and males
           </p>
-          <div className="card-actions justify-center">
-            <button className="btn btn-primary">Add To Cart</button>
+          <div className="card-actions justify-center mt-4">
+            <button className="btn bg-[#A3A7D2] border-hidden">Add To Cart</button>
           </div>
         </div>
       </div>
