@@ -47,7 +47,7 @@ const Register = () => {
   };
 
   return (
-    <div className=" pb-5">
+    <div className="bg-gray-400/100 pb-5">
       <h2 className="text-2xl text-center font-poppins py-10">
         Please Register
       </h2>
