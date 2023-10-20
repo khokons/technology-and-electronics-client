@@ -57,7 +57,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/details/:brand_name",
-        element: <DetailsPage></DetailsPage>,
+        element: <PrivateRoute><DetailsPage></DetailsPage></PrivateRoute>,
         loader: () => fetch('http://localhost:3389/techs')
       }
     ],
