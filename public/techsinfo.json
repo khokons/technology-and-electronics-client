@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "brand_name": "Apple",
+      "brand_name": "APPLE",
       "brand_img": "https://i.postimg.cc/ZKwDt6PB/photo-1662946834879-e42e04811369.jpg",
       "price": "$19.99",
       "short_description": "A wedding is a ceremony where two people are united in marriage.",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "brand_name": "Samsung",
+      "brand_name": "SAMSUNG",
       "brand_img": "https://i.postimg.cc/zDszW8wd/5969247.png",
       "price": "$29.99",
       "short_description": "A birthday is the anniversary of the birth of a person, or figuratively of an institution.",
@@ -19,7 +19,7 @@
     },
     {
       "id": 3,
-      "brand_name": "A4-Tech",
+      "brand_name": "A4TECH",
       "brand_img": "https://i.postimg.cc/SsX42vnF/A4-Tech-Logo-Dark-Thumb-Square.png",
       "price": "$39.99",
       "short_description": "An anniversary is the date on which an event took place or an institution was founded in a previous year, and may also refer to the commemoration or celebration of that event.",
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "brand_name": "Google",
+      "brand_name": "GOOGLE",
       "brand_img": "https://i.postimg.cc/SKdhwnKg/Google-Logo-770x360.jpg",
       "price": "$49.99",
       "short_description": "An engagement or betrothal is the period of time between the declaration of acceptance of a marriage proposal and the marriage itself (which is typically but not always commenced with a wedding).",
@@ -37,7 +37,7 @@
     },
     {
       "id": 5,
-      "brand_name": "Intel",
+      "brand_name": "INTEL",
       "brand_img": "https://i.postimg.cc/W4zLCH6F/download.png",
       "price": "$59.99",
       "short_description": "Retirement is the withdrawal from one's position or occupation or from one's active working life.",

@@ -12,6 +12,8 @@ import Contact from "./Components/Section/Contact";
 import AuthProvider from "./Components/Providers/AuthProvider";
 import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
+import PrivateRoute from "./PrivateRoute";
+import DetailsPage from "./Components/DetailsPage/DetailsPage";
 
 const router = createBrowserRouter([
   {
@@ -22,27 +24,28 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("/techsinfo.json"),
+        loader: () => fetch("/techsinfo.json")
       },
+
       {
         path: "/addProducts",
-        element: <AddProducts></AddProducts>,
+        element: <PrivateRoute><AddProducts></AddProducts></PrivateRoute>
       },
 
       {
         path: "/techs",
         element: <Products></Products>,
-        loader: () => fetch("http://localhost:3389/techs"),
+        loader: () => fetch("http://localhost:3389/techs")
       },
 
       {
         path: "/atechs/:id",
         element: <Atechs></Atechs>,
-        loader: () => fetch("http://localhost:3389/techs"),
+        loader: () => fetch("http://localhost:3389/techs")
       },
       {
         path: "/contact",
-        element: <Contact></Contact>,
+        element: <Contact></Contact>
       },
       {
         path: "/login",
@@ -51,6 +54,11 @@ const router = createBrowserRouter([
       {
         path:"/register",
         element: <Register></Register>
+      },
+      {
+        path: "/details/:brand_name",
+        element: <DetailsPage></DetailsPage>,
+        loader: () => fetch('http://localhost:3389/techs')
       }
     ],
   },

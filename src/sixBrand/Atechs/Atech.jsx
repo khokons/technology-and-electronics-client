@@ -1,9 +1,11 @@
 /* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom";
+
 
 const Atech = ({ tec }) => {
     
-  const { image, name, brand, category, price, rating } = tec;
+  const {_id, image, name, brand, category, price, rating } = tec;
 
   // Check if the brand is "A4TECH" before rendering the component
   if (brand === "A4TECH") {
@@ -37,12 +39,14 @@ const Atech = ({ tec }) => {
             
           </div>
           <div className="p-6 pt-0 flex justify-between">
-            <button
+         <Link to={`/details/${_id}`}>
+         <button
               className="bg-[#A3A7D2] select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               type="button"
             >
              Details 
             </button>
+         </Link>
   
             <button
               className="bg-[#A3A7D2] select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
@@ -54,6 +58,7 @@ const Atech = ({ tec }) => {
         </div>
       );
   }
+
 
    else {
       // Return null for items with a different brand
