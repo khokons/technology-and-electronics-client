@@ -89,7 +89,7 @@ const Login = () => {
       </p>
       <div className="text-center mt-3">
       <button onClick={handleGoogle} className="btn btn-primary">
-            Googl Login
+            Google Login
           </button>
       </div>
       <div className="flex justify-center items-center mt-2"></div>
